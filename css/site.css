@@ -1,3 +1,7 @@
+.color-1 {
+	color: #F5FFFA;
+}
+
 body {
 	color: white;
 	font-family: 'Oxygen', sans-serif;
@@ -6,7 +10,7 @@ body {
 	background-image: url(../img/background.jpg);
 }
 
-#acmw-logo {
+#resumeicon {
 	display: inline;
 	max-width: 40px;
 }
