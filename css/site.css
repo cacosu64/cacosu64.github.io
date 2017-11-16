@@ -48,4 +48,9 @@ body {
 	font-weight: 200;
 	font-size: 20pt;
 }
+
+.resume {
+	text-align: right;
+	font-size: 15pt;
+}
 }
