@@ -1,2 +1,2 @@
 # cacosu64.github.io
-## Personal website for Courtney Campbell 
+Courtney Campbell's personal website

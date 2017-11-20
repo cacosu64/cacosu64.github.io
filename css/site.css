@@ -24,15 +24,15 @@ body {
 }
 
 .name {
-	text-align: left;
+	text-align: center;
   font-weight: 300;
 	margin-bottom: 0px;
-	font-size: 72pt;
+	font-size: 64pt;
 }
 
 .tagline {
-	text-align: left;
-	font-size: 40pt;
+	text-align: center;
+	font-size: 35pt;
 	margin-top: 0px;
 	border-bottom: 1px solid;
 }
@@ -56,6 +56,14 @@ body {
 .resume {
 	text-align: left;
 	font-size: 15pt;
+}
+
+.headshot {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	display: block;
+  margin: 0 auto;
 }
 
 }
