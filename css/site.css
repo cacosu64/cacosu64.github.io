@@ -94,7 +94,7 @@ body {
     color: white;
 }
 
-.resumetitle {
+.pgtitle {
 	text-align: center;
 	font-size: 36pt;
 	min-width: 415px;
@@ -102,7 +102,7 @@ body {
 	margin-bottom: 40px;
 }
 
-.resumename {
+.pgname {
 	text-align: center;
   font-weight: 300;
 	margin-bottom: 0px;
