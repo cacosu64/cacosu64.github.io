@@ -66,6 +66,10 @@ body {
   margin: 0 auto;
 }
 
+.headshot:hover {
+	transform: scale(1.2);
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: white;
@@ -86,6 +90,7 @@ body {
 .topnav a:hover {
 		/* color is gray */
     background-color: #ddd;
+		transform: scale(1.2);
 }
 
 /* Add a color to the active/current link */
