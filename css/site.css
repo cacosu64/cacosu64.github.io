@@ -120,7 +120,7 @@ body {
 
 .supporttitle {
 	text-align: center;
-	font-size: 25px;
+	font-size: 25pt;
 }
 
 p {
@@ -128,5 +128,13 @@ p {
 }
 
 .contactelement {
+	text-align: center;
+	color: white;
+	font-size: 20pt;
+}
 
+#contacticon {
+	display: inline;
+	max-width: 20px;
+	max-height: 30px;
 }
