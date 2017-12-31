@@ -49,13 +49,6 @@ body {
 	padding-top: 1em;
 }
 
-/*
-.education {
-	text.align: left;
-	font-size: 25pt;
-}
-*/
-
 .descriptext {
 	text-align: left;
 	font-weight: 200;
@@ -139,4 +132,29 @@ p {
 	display: inline;
 	max-width: 20px;
 	max-height: 30px;
+}
+
+.disclaim {
+	font-size: 10pt;
+	text-align: center;
+}
+
+.sectiontitle {
+	font-size: 25pt;
+}
+
+.education {
+	text-align: left;
+	background-color: DimGray;
+	padding-top: 15px;
+	padding-bottom: 25px;;
+}
+.schoolname {
+	font-size: 15pt;
+	text-indent: 50px;
+}
+
+.schoolinfo {
+	font-size: 10pt;
+	text-indent: 100px;
 }
