@@ -142,6 +142,7 @@ p {
 
 .sectiontitle {
 	font-size: 25pt;
+	text-transform: uppercase; 
 }
 
 .education {
