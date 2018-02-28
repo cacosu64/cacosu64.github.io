@@ -66,6 +66,7 @@ body {
 	height: 200px;
 	display: block;
   margin: 0 auto;
+	text-align: center;
 }
 
 /* Add a white background color to the top navigation */
