@@ -65,7 +65,7 @@ body {
 	width: 200px;
 	height: 200px;
 	display: block;
-  margin: 0 auto;
+  margin: 20px auto;
 	text-align: center;
 }
 
@@ -142,7 +142,7 @@ p {
 
 .sectiontitle {
 	font-size: 25pt;
-	text-transform: uppercase; 
+	text-transform: uppercase;
 }
 
 .education {
