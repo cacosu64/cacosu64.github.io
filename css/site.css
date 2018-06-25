@@ -145,18 +145,31 @@ p {
 	text-transform: uppercase;
 }
 
-.education {
+.educationDark {
 	text-align: left;
 	background-color: DimGray;
 	padding-top: 15px;
-	padding-bottom: 25px;;
+	padding-bottom: 25px;
 }
+
+.educationLight {
+	text-align: left;
+	background-color: Silver;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+
 .schoolname {
 	font-size: 15pt;
 	text-indent: 50px;
 }
 
 .schoolinfo {
+	font-size: 10pt;
+	text-indent: 100px;
+}
+
+.regularline {
 	font-size: 10pt;
 	text-indent: 100px;
 }
