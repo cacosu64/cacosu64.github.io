@@ -11,19 +11,33 @@
 
   <body>
     <!-- nav bar -->
-    <div class="topnav" id="myTopnav">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="resume.html">Resume</a>
-      <a class="active" href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
-    </div>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#theNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Courtney Campbell</a>
+        </div>
+        <div class="collapse navbar-collapse" id="theNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li class="active"><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <div class="pgtitle">
       <p class="pgname">Projects</p>
     </div>
 
-    <div>
+    <div class="projectSection">
       <p>More to come here!</p>
     </div>
 
@@ -31,8 +45,8 @@
 
   <script type="text/javascript" src="css/site.js"></script>
   <link rel="stylesheet" type="text/css" href="css/site.css">
-  <!-- <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
   <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-  <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script> -->
+  <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" type='text/css'>
 </html>

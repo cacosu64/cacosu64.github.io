@@ -10,6 +10,22 @@ body {
 	background-image: url(../img/background.jpg);
 }
 
+/* index.html */
+.title {
+	text-align: left;
+	font-size: 36pt;
+	min-width: 415px;
+	overflow: visible;
+	margin-bottom: 40px;
+	color: white;
+}
+
+.supporttitle {
+	text-align: center;
+	font-size: 15pt;
+	color: white;
+}
+
 #resumeicon {
 	display: inline;
 	max-width: 40px;
@@ -20,14 +36,6 @@ body {
 	align-content: center;
 	max-width: 50%;
 	max-height: 50%;
-}
-
-.title {
-	text-align: left;
-	font-size: 36pt;
-	min-width: 415px;
-	overflow: visible;
-	margin-bottom: 40px;
 }
 
 .name {
@@ -69,41 +77,17 @@ body {
 	text-align: center;
 }
 
-/* Add a white background color to the top navigation */
-.topnav {
-    background-color: white;
-    overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-/* Change the color, size of links on hover */
-.topnav a:hover {
-		/* color is gray */
-    background-color: #ddd;
-		transform: scale(1.2);
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-    background-color: salmon;
-    color: white;
-}
-
 .pgtitle {
 	text-align: center;
 	font-size: 36pt;
 	min-width: 415px;
 	overflow: visible;
 	margin-bottom: 40px;
+	color: white;
+}
+
+.aboutme {
+	color: white;
 }
 
 .pgname {
@@ -112,11 +96,6 @@ body {
 	margin-bottom: 0px;
 	font-size: 40pt;
 	border-bottom: 1px solid;
-}
-
-.supporttitle {
-	text-align: center;
-	font-size: 15pt;
 }
 
 p {
@@ -151,6 +130,7 @@ p {
 	background-color: DimGray;
 	padding-top: 15px;
 	padding-bottom: 25px;
+	font-weight: bold;
 }
 
 .educationLight {
@@ -158,6 +138,7 @@ p {
 	background-color: Silver;
 	padding-top: 15px;
 	padding-bottom: 25px;
+	font-weight: bold;
 }
 
 .schoolname {
@@ -173,4 +154,8 @@ p {
 .regularline {
 	font-size: 10pt;
 	text-indent: 100px;
+}
+
+.projectSection {
+	color: white;
 }
